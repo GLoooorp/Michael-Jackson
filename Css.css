@@ -1,0 +1,87 @@
+rot {
+    --dark: #19191b;
+    --gray: #696871;
+    --purple: #5454d4;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url('images/Michael.Jackson1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    font-size: larger;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.header__container {
+    max-width: 1069;
+    margin-inline: auto;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 49px;
+}
+
+.header__list-link {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.47px;
+    color: var(--gray)
+}
+
+.header__list-link__active {
+    color: var(--dark);
+    border-bottom: 2px solid var(--purple);
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p.MJ {
+    padding: 20px 700px;
+    font-size: 20px;
+}
+
+.h1 {
+    color: black;
+    background-color: transparent;
+    padding: 10px;
+    display: block;
+    border: none;
+    font-size: 2em;
+}
+
+.text-container {
+    position: relative;
+    top: 120px;
+    z-index: 2;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.opisanie {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    padding: 10px;
+    line-height: 1.6;
+    border: none;
+}

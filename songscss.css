@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    background-image: url('images/Michael.Jackson1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: rgb(64, 82, 174);
+
+}
+
+.header {
+    font-size:larger;
+    padding: 30px;
+}
+
+.header__container {
+    max-width: 1069;
+    margin-inline: auto;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 49px;
+}
+
+.header__list-link {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.47px;
+    color: var(--gray)
+}
+
+.header__list-link__active {
+    color: var(--dark);
+    border-bottom: 2px solid var(--purple);
+    padding-bottom: 10px;
+}
+
+.text-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    z-index: 2;
+    position: relative;
+    top: 200px;
+}
+
+.songs {
+    font-size: 27px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.songs__names {
+    padding: 0px 350px;
+    display: flex;
+    list-style: none;
+    gap: 49px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.songs__opisanie {
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    text-align: center;
+}
